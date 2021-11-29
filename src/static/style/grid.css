@@ -1,0 +1,40 @@
+.gameContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.gridContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vw;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 8vw 8vw 8vw;
+  grid-template-rows: 8vw 8vw 8vw;
+}
+.square {
+  background-color: lightskyblue;
+  width: 5vw;
+  height: 5vw;
+  min-width: 5vw;
+  min-height: 5vw;
+  border: 1px solid darkblue;
+  border-radius: 1vw;
+  font-size: 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reset {
+  font-size: 4vw;
+  background-color: blue;
+  color: aliceblue;
+  border-radius: 0.5vw;
+  cursor: pointer;
+}
+.status {
+  font-size: 4vw;
+  font-weight: bold;
+  color: darkblue;
+}
