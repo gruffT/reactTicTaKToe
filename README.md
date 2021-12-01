@@ -6,8 +6,12 @@ A quick Tic Tak Toe game to demonstrate basic React skills.
 Clone the repo and run yarn install
 &nbsp;
 
-***Test***  
-yarn test
+***Unit Test***  
+yarn test:all
+&nbsp;
+
+***CI Tests***  
+yarn ci
 &nbsp;
 
 ***Run***  
